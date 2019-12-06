@@ -1,0 +1,24 @@
+{
+  "name": "node-practice-by-flashfish",
+  "version": "1.0.0",
+  "description": "Node.js 测试模块",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "es-checker": "^1.4.2"
+  },
+  "scripts": {
+    "test": "make test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flash-fish"
+  },
+  "author": "charies",
+  "license": "ISC"
+}
