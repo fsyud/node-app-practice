@@ -4,12 +4,15 @@
   "description": "Node.js 测试模块",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "multer": "^1.4.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "es-checker": "^1.4.2"
+    "es-checker": "^1.4.2",
+    "express": "^4.17.1"
   },
   "scripts": {
     "test": "make test",
